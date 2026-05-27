@@ -1,0 +1,83 @@
+/* ---------- UX RUIM ---------- */
+
+.ruim{
+    background: yellow;
+    color: white;
+    font-size: 10px;
+    font-family: comic sans ms;
+    text-align: left;
+}
+
+.ruim button{
+    background: gray;
+    color: black;
+    border: none;
+    padding: 2px;
+    cursor: pointer;
+}
+
+
+/* ---------- UX BOA ---------- */
+
+.bom{
+    background: #f4f4f4;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    max-width: 800px;
+    margin: auto;
+    padding: 30px;
+    text-align: center;
+}
+
+.bom h1{
+    color: #222;
+    font-size: 40px;
+}
+
+.bom p{
+    color: #555;
+    font-size: 20px;
+    line-height: 1.6;
+}
+
+.bom img{
+    width: 100%;
+    border-radius: 12px;
+    margin-top: 20px;
+}
+
+.bom button{
+    margin-top: 20px;
+    background: #0077ff;
+    color: white;
+    border: none;
+    padding: 15px 25px;
+    font-size: 18px;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.bom button:hover{
+    background: #005ad1;
+    transform: scale(1.05);
+}
+
+
+/* ---------- RESPONSIVIDADE ---------- */
+
+@media(max-width:600px){
+
+    .bom h1{
+        font-size: 28px;
+    }
+
+    .bom p{
+        font-size: 16px;
+    }
+
+}
